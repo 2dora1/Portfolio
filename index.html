@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Tarek Mohamed | Portfolio</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+
+  <canvas id="particles"></canvas>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">Tarek <span>Mohamed</span></a>
+
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certificates" class="nav-link">Certificates</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main id="home" class="hero">
+    <div class="container hero-inner glass hero-glass">
+      <h1 class="hero-title">
+        Hi, I'm <span class="accent">Tarek Mohamed</span>
+      </h1>
+      <h2 class="hero-subtitle">Network Administrator</h2>
+
+      <p class="hero-desc">
+        Computer Science student with CCNA & CCNP certifications.
+        Skilled in network configuration, routing, switching, and troubleshooting.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">
+          <i class="fa-solid fa-paper-plane"></i>
+          Contact Me
+        </a>
+      </div>
+
+      <div class="hero-social">
+        <a class="social" href="https://www.linkedin.com/in/tarek-mohamed-15b9792a0" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="section-underline"></div>
+
+      <div class="about-grid glass">
+        <div class="about-photo">
+         
+          <img src="assets/profile.jpg" alt="Tarek Mohamed" />
+        </div>
+
+        <div class="about-content">
+          <h3 class="subhead">Who I Am</h3>
+          <p>
+            I'm a Computer Science student specializing in networking with strong knowledge in routing,
+            switching, and troubleshooting.
+          </p>
+
+          <div class="about-meta">
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Cairo, Egypt</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:2dora124@gmail.com">2dora124@gmail.com</a>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+201147078055">+20 114 707 8055</a>
+            </div>
+          </div>
+
+          <div class="about-links">
+            <a class="mini-link" href="https://www.linkedin.com/in/tarek-mohamed-15b9792a0" target="_blank">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="section-underline"></div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card glass">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <h3>Networking</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Network Configuration</span>
+            <span class="chip">Routing</span>
+            <span class="chip">Switching</span>
+            <span class="chip">Troubleshooting</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <i class="fa-solid fa-route"></i>
+            </div>
+            <h3>Routing</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Static Routing</span>
+            <span class="chip">OSPF</span>
+            <span class="chip">Static NAT/PAT</span>
+            <span class="chip">EIGRP</span>
+            <span class="chip">HSRB</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <h3>Switching</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">VLAN</span>
+            <span class="chip">STP</span>
+            <span class="chip">VTP</span>
+            <span class="chip">Trunking</span>
+            <span class="chip">EtherChannel</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Security</h3>
+          </div>
+          <div class="chips">
+            <span class="chip">Telnet</span>
+            <span class="chip"> SSH</span>
+            <span class="chip">ACLs</span>
+            <span class="chip">DHCP Snooping</span>
+            <span class="chip">Port security</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+<section id="education" class="section">
+  <div class="container">
+    <h2 class="section-title">Education</h2>
+    <div class="section-underline"></div>
+
+    <div class="edu-card glass">
+      <div class="edu-left">
+        <div class="edu-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+      </div>
+
+      <div class="edu-right">
+        <h3>Bachelor's in Computer Science</h3>
+        <p class="muted">Higher Technology Institute (HTI), 10th of Ramadan</p>
+
+        <div class="edu-date">
+          <i class="fa-regular fa-calendar"></i>
+          <span>4th Year — Expected Graduation: 2026</span>
+        </div>
+
+        <div class="edu-box">
+          <h4>Activities & Achievements:</h4>
+
+          <div class="edu-ach">
+            <i class="fa-solid fa-certificate"></i>
+            <span>CCNA Certified • CCNP Training Completed • Focused on Networking & Infrastructure</span>
+          </div>
+
+          <div class="edu-ach">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>Hands-on Labs using Packet Tracer (Routing, Switching, Troubleshooting)</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates" class="section">
+  <div class="container">
+    <h2 class="section-title">Certificates</h2>
+    <div class="section-underline"></div>
+
+    <div class="carousel cert-carousel">
+      <button class="carousel-btn left" id="certPrev">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="carousel-window">
+        <div class="carousel-track" id="certTrack">
+
+          
+          <article class="cert-card glass">
+            <div class="cert-top grad-1">
+              <div class="cert-top-inner">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>CCNA: Introduction to Networks</h3>
+                <p>Cisco Networking Academy</p>
+              </div>
+            </div>
+            <div class="cert-body">
+              <p class="muted">Oct 2024</p>
+              <div class="chips">
+                <span class="chip">IP Addressing</span>
+                <span class="chip">OSI Model</span>
+                <span class="chip">TCP/IP</span>
+              </div>
+              <a class="mini-link" href="https://drive.google.com/file/d/1tcbel5KLG7j74cZw3oO7CFP35OcSz0L4/view" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </article>
+
+         
+          <article class="cert-card glass">
+            <div class="cert-top grad-2">
+              <div class="cert-top-inner">
+                <i class="fa-solid fa-router"></i>
+                <h3>CCNA: Switching, Routing & Wireless</h3>
+                <p>NTI / Cisco</p>
+              </div>
+            </div>
+            <div class="cert-body">
+              <p class="muted">Oct 2024</p>
+              <div class="chips">
+                <span class="chip">VLAN</span>
+                <span class="chip">STP</span>
+                <span class="chip">Routing</span>
+              </div>
+              <a class="mini-link" href="https://drive.google.com/file/d/158WLfL2K4iI_q2_cz_NJuDmOAbyCdo42/view" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </article>
+
+        
+          <article class="cert-card glass">
+            <div class="cert-top grad-3">
+              <div class="cert-top-inner">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>CCNA: Enterprise & Security</h3>
+                <p>NTI / Cisco</p>
+              </div>
+            </div>
+            <div class="cert-body">
+              <p class="muted">Oct 2024</p>
+              <div class="chips">
+                <span class="chip">ACLs</span>
+                <span class="chip">Security</span>
+              </div>
+              <a class="mini-link" href="https://drive.google.com/file/d/1Q54RYHAYAJ1yaUhwAeqjl8zRkefqiMNZ/view" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </article>
+
+        
+          <article class="cert-card glass">
+            <div class="cert-top grad-4">
+              <div class="cert-top-inner">
+                <i class="fa-solid fa-server"></i>
+                <h3>CCNP Enterprise: Core Networking</h3>
+                <p>NTI CyberSecurity</p>
+              </div>
+            </div>
+            <div class="cert-body">
+              <p class="muted">Nov 2024</p>
+              <div class="chips">
+                <span class="chip">Advanced Routing</span>
+                <span class="chip">Troubleshooting</span>
+              </div>
+              <a class="mini-link" href="https://drive.google.com/file/d/1K2DpWgZ90NrLDP13abeh6RHMiN_TKamV/view" target="_blank">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Certificate
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="carousel-btn right" id="certNext">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="dots" id="certDots"></div>
+  </div>
+</section>
+
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="section-underline"></div>
+
+    <div class="contact-wrap glass">
+
+      <div class="contact-left">
+        <h3>Contact Information</h3>
+        <p class="muted">Feel free to reach out if you're looking for a Network Administrator.</p>
+
+        <div class="contact-items">
+
+          <div class="contact-item">
+            <div class="contact-ico"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Cairo, Egypt</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-ico"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:2dora124@gmail.com">2dora124@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-ico"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+201147078055">+20 114 707 8055</a>
+            </div>
+          </div>
+
+        </div>
+
+        <h3 class="mt-28">Follow Me</h3>
+
+        <div class="follow">
+          <a class="social" href="https://www.linkedin.com/in/tarek-mohamed-15b9792a0" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a class="social" href="https://wa.me/201147078055" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-right">
+        <div class="glass contact-mini">
+
+          <h3>Quick Message</h3>
+
+          <form action="https://formsubmit.co/2dora124@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+
+            <label>
+              <span>Your Name</span>
+              <input type="text" name="name" required>
+            </label>
+
+            <label>
+              <span>Your Email</span>
+              <input type="email" name="email" required>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <button class="btn btn-primary w-100" type="submit">
+              <i class="fa-solid fa-paper-plane"></i> Send
+            </button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
